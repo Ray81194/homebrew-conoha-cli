@@ -1,4 +1,4 @@
-REPOSITORY_URL="https://github.com/ray81194/conoha-cli.git".freeze
+REPOSITORY_URL="https://github.com/ray81194/conoha-cli".freeze
 HOMEBREW_GITPULLS_VERSION="0.0.1".freeze
 class ConohaCli < Formula
   desc "Pulls all git repository under specified paths."
