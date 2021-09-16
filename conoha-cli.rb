@@ -9,6 +9,8 @@ class ConohaCli < Formula
 
   def install
     bin.install "conoha"
+    bin.install "conoha_init"
+    bin.install "conoha_body"
   end
 
   test do
