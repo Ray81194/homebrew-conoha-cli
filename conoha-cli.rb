@@ -4,7 +4,7 @@ class ConohaCli < Formula
   desc "Pulls all git repository under specified paths."
   homepage REPOSITORY_URL
   url "#{REPOSITORY_URL}/archive/refs/tags/#{HOMEBREW_GITPULLS_VERSION}.tar.gz"
-  sha256 "9b734ba7cad5d2e95a7ab003e03aec042844c1479398def3296ae3d9b89b145d"
+  sha256 "deb5afe1f934c08b638e98cc77668c47ca58d014d722d27ebabdc3092c9337be"
 
   def install
     bin.install "conoha"
